@@ -2,11 +2,13 @@ from tkinter import *
 from tkinter import filedialog, messagebox
 from pythonping import ping
 import os
-from shutil import copyfile
+#from shutil import copyfile
 import datetime
 
-#i love my code
 
+#----------------------------------
+
+## function by touch ---- start
 
 def text ():
     global filesavefile
@@ -16,7 +18,7 @@ def text ():
     getNom_Du_Client=ment_Nom_Du_Client.get()
     savefile=getNom_Du_Client+x.strftime("-%d-%m-%Y")
     filesavefile="./"+savefile+".cli"
-    #copyfile(myOpen_myOpenserver,"./"+savefile+".cli")
+    #copyfile(myOpen_myOpenserver,"./"+savefile+".cli") #because i testing create the file in my projet and # test for my next projet
     with open(myOpen_myOpenserver, "r+") as f:
         old = f.read()# read everything in the file
         print(old,filesavefile)
@@ -57,15 +59,15 @@ def myOpenclient():
     mlabel2_myOpenserver.configure(text=myOpen_myOpenserver,background="green")
 
 def transf_file():
-    getFuture = mentFuture.get()
-    getGW = mentGW.get()
+    #getFuture = mentFuture.get() #test for my next projet
+    #getGW = mentGW.get() #test for my next projet
     getmentIP=mentIP.get()
     getmenpassword=mentpassword.get()
     getmentuser=mentuser.get()
     print(f'nsrpc.exe -c "{filesavefile}" "{getmentuser}:{getmenpassword}@{getmentIP}')
     os.system(f'nsrpc.exe -c "{filesavefile}" "{getmentuser}:{getmenpassword}@{getmentIP}')
-    #print(f'nsrpc.exe -c "{myOpen_myOpenserver}" "{getmentuser}:{getmenpassword}@{getmentIP}')
-    #os.system(f'nsrpc.exe -c "{myOpen_myOpenserver}" "{getmentuser}:{getmenpassword}@{getmentIP}')
+    #print(f'nsrpc.exe -c "{myOpen_myOpenserver}" "{getmentuser}:{getmenpassword}@{getmentIP}') #test for my next projet
+    #os.system(f'nsrpc.exe -c "{myOpen_myOpenserver}" "{getmentuser}:{getmenpassword}@{getmentIP}') #test for my next projet
 
 def mAbout():
     messagebox.showinfo(title="About",message="The app is open source / Support app  :  kevin.hamon1998@gmail.com")
@@ -75,20 +77,25 @@ def mQuit():
     if mExit > 0:
         myApp.destroy()
 
-## fonction par touche ---- fin
+## function by touch ---- fin
 
+#----------------------------------
 
-
-## cadre de l'application ---- début
+## application framework ---- start
 
 myApp = Tk()
 myApp.geometry('500x500')
 myApp.title("stormshield transfert")
 myApp.resizable(width=False, height=False)
 
-## cadre de l'application ---- fin
+## Application framework ---- end
 
-##variable ecriture ---- début
+
+#----------------------------------
+
+## Write variable ---- start
+
+
 mentIP = StringVar()
 ment_Nom_Du_Client = StringVar()
 mentuser = StringVar()
@@ -97,16 +104,19 @@ mentfile_linux = StringVar()
 mentFuture = StringVar()
 mentGW = StringVar()
 
-##variable ecriture ---- fin
 
-## titre de pague
+## Write variable ---- end
+
+#----------------------------------
+
+## button of de app ---- start
 
 
 
 label_0 = Label(myApp, text="stormshield transfert",width=20,font=("bold", 20),background=None)
 label_0.place(x=90,y=20)
 
-
+#
 label_2 = Label(myApp, text="IP Du Storm Actuel: ",width=20,font=("bold", 10))
 label_2.place(x=5,y=60)
 entry_2 = Entry(myApp,textvariable=mentIP)
@@ -160,12 +170,15 @@ mlabel2_myOpenserver = Label(myApp, text="")
 mlabel2_myOpenserver.place(x=1, y=320)
 
 
-#app_apache1_text = Entry(myApp)
-#app_apache1_text.place(x=120, y=330,width=180)
+## button of de app ---- end
 
 
-##log = Entry(myApp,text="log",background= "black")
-##log.place(x=150,y=250,width=300,height=200)
+#app_apache1_text = Entry(myApp)#test for my next projet
+#app_apache1_text.place(x=120, y=330,width=180)#test for my next projet
+
+
+##log = Entry(myApp,text="log",background= "black")#test for my next projet
+##log.place(x=150,y=250,width=300,height=200)#test for my next projet
 
 
 
@@ -194,5 +207,7 @@ menubar.add_cascade(label="Help",menu=helpmenu)
 
 #add menubar to the window
 myApp.config(menu=menubar)
+
+## Bouton of de app ---- end
 
 myApp.mainloop()

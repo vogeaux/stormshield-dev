@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c93d8d0-80c3-4904-be96-129938a2f589" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcodeobjet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectura-18-01-2021-171074.cli" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectura-18-01-2021-539486.cli" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectura-18-01-2021-610744.cli" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectura-18-01-2021-779306.cli" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectura-18-01-2021.cli" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectura243391-18-01-2021.cli" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stormshield-dev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_strom.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_strom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -106,7 +105,9 @@
       <workItem from="1610820781704" duration="603000" />
       <workItem from="1610972759985" duration="5863000" />
       <workItem from="1610996121482" duration="652000" />
-      <workItem from="1611011266224" duration="867000" />
+      <workItem from="1611011266224" duration="4129000" />
+      <workItem from="1611169179478" duration="93000" />
+      <workItem from="1611556314593" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="i love my code">
       <created>1611011441958</created>
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611011479903</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="i love my code">
+      <created>1611015265368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611015265368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +146,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i love my code" />
@@ -148,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1080.1920.1040/1920.-603.1080.1880@0.0.1920.1040" timestamp="1611004240023" />
-    <state x="740" y="65" width="440" height="713" key="FileChooserDialogImpl" timestamp="1611011052980">
+    <state x="740" y="65" width="440" height="713" key="FileChooserDialogImpl" timestamp="1611169264393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="65" width="440" height="713" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040/1920.-603.1080.1880@0.0.1920.1040" timestamp="1611011052980" />
+    <state x="740" y="65" width="440" height="713" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040/1920.-603.1080.1880@0.0.1920.1040" timestamp="1611169264393" />
     <state x="822" y="418" key="Github.ShareDialog" timestamp="1611007222783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,10 +189,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="841" y="240" key="RollbackChangesDialog/0.0.1920.1040/0.-1080.1920.1040/1920.-603.1080.1880@0.0.1920.1040" timestamp="1611011090250" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611011099801">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611015293781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040/1920.-603.1080.1880@0.0.1920.1040" timestamp="1611011099801" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040/1920.-603.1080.1880@0.0.1920.1040" timestamp="1611015293781" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611011031358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
