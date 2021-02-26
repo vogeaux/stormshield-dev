@@ -5,7 +5,7 @@ CONFIG NTP STATE on
 CONFIG NTP ADVANCED  allowUnauth=on
 CONFIG NTP ACTIVATE
 SYSTEM TIMEZONE SET zone=Europe/Paris
-config object host new name=optimal-it.dyndns.org comment="" ip="81.250.232.172" resolve=static mac=""
+config object host new name=optimal-it.dyndns.org comment="" ip="81.250" resolve=static mac=""
 config object activate
 CONFIG WEBADMIN ACCESS ADD optimal-it.dyndns.org
 CONFIG WEBADMIN ACTIVATE
@@ -16,8 +16,8 @@ SYSTEM LOGDISK STATE on
 CONFIG LOG ACTIVATE
 config report state reports=on linecharts=on
 config report activate
-config object host new name=svc.optimal-it.fr comment="" ip="212.129.4.119" resolve=static mac=""
-CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 state=1 name="Syslog Optimal" port=syslog-conn backupPort=syslog-conn protocol=TCP syslogProtocol=RFC5424 facility=0 comment= server=svc.optimal-it.fr backupServer= caServer= certServer= certClient= bindAddr=
+config object host new name=svc.p comment="" ip="4.119" resolve=static mac=""
+CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 state=1 name="Syslog Op" port=syslog-conn backupPort=syslog-conn protocol=TCP syslogProtocol=RFC5424 facility=0 comment= server=svc.optimal-it.fr backupServer= caServer= certServer= certClient= bindAddr=
 CONFIG COMMUNICATION ACTIVATE
 {GETGW}
 {GETIPFUTURE}
